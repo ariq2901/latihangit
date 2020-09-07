@@ -18,3 +18,5 @@ Route::get('/', function () {
 });
 
 Route::get('/ariq', 'AriqController@index');
+Route::get('forms', 'HomeController@index');
+Route::post('proses', 'HomeController@proses');
